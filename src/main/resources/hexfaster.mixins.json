@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "vg.skye.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlockEntityAkashicBookshelfRendererMixin",
+    "BlockEntitySlateRendererMixin",
+    "CastingHarnessMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "WallScrollRendererMixin"
+  ]
+}
