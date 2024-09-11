@@ -3,14 +3,18 @@
   "package": "vg.skye.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "BERHexChestMixin",
     "BlockEntityAkashicBookshelfRendererMixin",
     "BlockEntitySlateRendererMixin",
-    "CastingHarnessMixin"
+    "CastingHarnessMixin",
+    "StyleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
   },
   "client": [
+    "GuiSpellcastingMixin",
+    "ShaderInstanceMixin",
     "WallScrollRendererMixin"
   ]
 }

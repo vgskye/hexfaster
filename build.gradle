@@ -88,8 +88,12 @@ dependencies {
 	}
 
 
-	modImplementation("com.jozufozu.flywheel:flywheel-fabric-1.19.2:0.6.9-6")
+	modImplementation("com.jozufozu.flywheel:flywheel-fabric-1.19.2:0.6.10-8")
 	modImplementation "maven.modrinth:hexgloop:1.19.2-0.2.0-fabric"
+	modImplementation "maven.modrinth:lootr:0.4.28.69"
+	modImplementation "maven.modrinth:caxton:0.6.0-alpha.2+1.19.2-FABRIC"
+
+	modImplementation "dev.architectury:architectury:5.13.55"
 }
 
 processResources {

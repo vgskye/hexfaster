@@ -16,6 +16,9 @@
 	"entrypoints": {
 		"main": [
 			"vg.skye.HexFaster"
+		],
+		"client": [
+			"vg.skye.HexFasterClient"
 		]
 	},
 	"mixins": [
