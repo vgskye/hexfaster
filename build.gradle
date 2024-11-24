@@ -100,6 +100,7 @@ dependencies {
 	modImplementation "maven.modrinth:hexical:1.3.2"
 	modImplementation "io.github.ladysnake:requiem:2.0.0-beta.8"
 	modImplementation "io.github.ladysnake:automatone:0.7.0"
+	modImplementation "io.github.ladysnake:locki:0.7.0"
 
 	modImplementation "dev.architectury:architectury-fabric:6.6.92"
 	modImplementation "maven.modrinth:wnboi:0.0.4-fabric"

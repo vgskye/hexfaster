@@ -8,6 +8,7 @@
     "BlockEntitySlateRendererMixin",
     "CastingHarnessMixin",
     "FakeServerPlayerEntityMixin",
+    "PlayerInventoryKeeperMixin",
     "StyleMixin"
   ],
   "injectors": {
